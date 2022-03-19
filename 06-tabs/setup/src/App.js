@@ -4,7 +4,7 @@ import { FaAngleDoubleRight } from 'react-icons/fa'
 // I SWITCHED TO PERMANENT DOMAIN
 const url = 'https://course-api.com/react-tabs-project'
 function App() {
-  return <h2>t</h2>
+  return <h2>tabs project setup</h2>
 }
 
 export default App
