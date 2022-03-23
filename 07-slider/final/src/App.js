@@ -47,6 +47,7 @@ function App() {
             position = 'lastSlide';
           }
 
+         
           return (
             <article className={position} key={id}>
               <img src={image} alt={name} className="person-img" />
