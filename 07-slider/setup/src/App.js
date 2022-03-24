@@ -16,6 +16,9 @@ function App() {
     }
   }, [index, people]);
 
+
+  
+
   useEffect(() => {
     let slider = setInterval(() => {
       setIndex(index + 1);
