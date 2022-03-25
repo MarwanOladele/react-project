@@ -15,7 +15,6 @@ function App() {
       setIndex(0);
     }
   }, [index, people]);
-
   
 
   useEffect(() => {
