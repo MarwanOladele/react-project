@@ -5,7 +5,17 @@ function App() {
   const [count, setCount] = useState(0);
   const [text, setText] = useState([]);
 
-  const handleSubmit = () => {};
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    let amount = parseInt(count);
+    if (count <= 0) {
+      amount = 1
+    }
+    if (amount > 8) {
+      
+    }
+    setText(data.slice(0, amount));
+  };
 
   return (
     <section className="section-center">
@@ -24,14 +34,9 @@ function App() {
         </button>
       </form>
       <article className="lorem-text">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
-          maiores.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
-          maiores.
-        </p>
+        {text.map((item, index) => {
+          return <p key={index}>{item}</p>;
+        })}
       </article>
     </section>
   );
