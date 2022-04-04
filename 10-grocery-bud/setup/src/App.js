@@ -26,7 +26,7 @@ function App() {
   return (
     <section className="section-center">
       <div className="grocery-container">
-        <form className="glocery-form" onSubmit={handleSubmit}>
+        <form className="grocery-form" onSubmit={handleSubmit}>
           {alert.show && <Alert />}
           <h3>grocery bud</h3>
           <div className="form-control">
