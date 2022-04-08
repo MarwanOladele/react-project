@@ -39,6 +39,8 @@ function App() {
     setList([]);
   };
 
+  
+
   const removeItem = (id) => {
     showAlert(true, "danger", "item remove");
     setList(list.filter((item) => item.id !== id));
