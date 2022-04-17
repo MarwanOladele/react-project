@@ -6,7 +6,7 @@ import Submenu from './Submenu'
 function App() {
   return (
     <>
-      <h2>stripe submenussetup</h2>
+      <h2>stripe submesetup</h2>
     </>
   )
 }
